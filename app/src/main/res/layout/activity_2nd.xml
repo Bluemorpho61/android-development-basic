@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".Activity2nd"
+    android:layout_height="match_parent">
+
+
+    <EditText
+
+        android:id="@+id/panjang2nd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:hint="Panjang"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/lebar2nd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lebar"
+        android:minHeight="48dp"
+        android:layout_margin="24dp"
+         />
+
+    <EditText
+        android:id="@+id/tinggi2nd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tinggi"
+        android:minHeight="48dp"
+        android:inputType="number"
+        android:layout_margin="24dp"
+        />
+
+    <Button
+        android:id="@+id/hitung2nd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="Hitung!!" />
+    <TextView
+        android:id="@+id/hasil2nd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:minHeight="35dp"
+
+        />
+
+    <Button
+        android:id="@+id/kembali2nd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="@string/kembali_ke_activity_1"
+        />
+
+</LinearLayout>

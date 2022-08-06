@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">dicodingandroid</string>
+    <string name="hasill">Hasil</string>
+    <string name="hitung">Hitung</string>
+    <string name="tinggi">Tinggi</string>
+    <string name="panjang">Panjang</string>
+    <string name="Kembali">Kembali</string>
+    <string name="lebar">Lebar</string>
+    <string name="kembali_ke_activity_1">Kembali Ke activity 1</string>
+</resources>
